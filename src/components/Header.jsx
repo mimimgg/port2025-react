@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const headerNav = [
   {
-    title: "intro",
+    title: "about me",
     url: "#intro",
   },
   {
@@ -35,7 +35,7 @@ const Header = () => {
         <div className="header__logo">
           <h1>
             <a href="/">
-              portfolio<em>react</em>
+              2minji<em>portfolio</em>
             </a>
           </h1>
         </div>

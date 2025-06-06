@@ -87,13 +87,16 @@ img {
 // 스킵메뉴
 #skip a {
     position: absolute;
+    width: 98%;
     left: 10px;
     top: -92px;
-    z-index: 100000;
+    z-index: 99;
     font-size: 1rem;
     padding: 10px 30px;
     color: var(--white);
     background: var(--black);
+    opacity: .8;
+    text-align: center;
 }
 #skip a:focus,
 #skip a:active {
